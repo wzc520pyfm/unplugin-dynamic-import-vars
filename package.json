@@ -1,17 +1,17 @@
 {
-  "name": "unplugin-starter",
+  "name": "unplugin-dynamic-import-vars",
   "type": "module",
   "version": "0.1.0",
   "packageManager": "pnpm@8.6.12",
   "description": "",
   "license": "MIT",
-  "homepage": "https://github.com/antfu/unplugin-starter#readme",
+  "homepage": "https://github.com/antfu/unplugin-dynamic-import-vars#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/antfu/unplugin-starter.git"
+    "url": "git+https://github.com/antfu/unplugin-dynamic-import-vars.git"
   },
   "bugs": {
-    "url": "https://github.com/antfu/unplugin-starter/issues"
+    "url": "https://github.com/antfu/unplugin-dynamic-import-vars/issues"
   },
   "keywords": [
     "unplugin",
@@ -122,7 +122,11 @@
     }
   },
   "dependencies": {
-    "unplugin": "^1.5.1"
+    "@rollup/pluginutils": "^5.1.0",
+    "astring": "^1.8.6",
+    "estree-walker": "^3.0.3",
+    "magic-string": "^0.30.11",
+    "unplugin": "^1.12.0"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.2.2",
